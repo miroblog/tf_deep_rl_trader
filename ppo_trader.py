@@ -51,11 +51,11 @@ def create_baseline_spec():
     return baseline_spec
 
 def main():
-    # window size
-    TIMESTEP = 30
+
     # create environment for train and test
     PATH_TRAIN = "./data/train/"
     PATH_TEST = "./data/test/"
+    TIMESTEP = 30 # window size
     environment = create_btc_env(window_size=TIMESTEP, path=PATH_TRAIN, train=True)
     test_environment = create_btc_env(window_size=TIMESTEP, path=PATH_TEST, train=False)
 
