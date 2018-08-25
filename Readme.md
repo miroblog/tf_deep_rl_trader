@@ -163,7 +163,7 @@ def create_baseline_spec():
 [Verbose] While training or testing, 
 * environment will print out (current_tick , # Long, # Short, Portfolio)
   
-[Portfolio]  Max DrawDown period in Red
+[Portfolio]  
 * initial portfolio starts with 100*10000(krw-won)     
 * reflects change in portfolio value if the agent had invested 100% of its balance every time it opened a position.       
   
@@ -172,7 +172,7 @@ def create_baseline_spec():
 
 ### Inital Result
 
-#### Portfolio Value Change
+#### Portfolio Value Change, Max DrawDown period in Red
 ![trade](https://github.com/miroblog/tf_deep_rl_trader/blob/master/portfolio_change.png)  
 
 * portfolio value 1000000 -> 1586872.1775 in 56 days
