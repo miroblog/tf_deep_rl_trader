@@ -173,7 +173,7 @@ def create_baseline_spec():
 ### Inital Result
 
 #### Portfolio Value Change
-![trade](https://github.com/miroblog/deep_rl_trader/blob/master/portfolio_change.png)  
+![trade](https://github.com/miroblog/tf_deep_rl_trader/blob/master/portfolio_change.png)  
 
 * portfolio value 1000000 -> 1586872.1775 in 56 days
 
@@ -185,7 +185,7 @@ Beaware of overfitting !
 
 ## Authors
 
-* **Lee Hankyol** - *Initial work* - [deep_rl_trader](https://github.com/miroblog/tf_deep_rl_trader)
+* **Lee Hankyol** - *Initial work* - [tf_deep_rl_trader](https://github.com/miroblog/tf_deep_rl_trader)
 
 ## License
 
