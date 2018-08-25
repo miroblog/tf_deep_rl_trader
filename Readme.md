@@ -177,7 +177,7 @@ def create_baseline_spec():
 
 * portfolio value 1000000 -> 1586872.1775 in 56 days
 
-Not bad ... though needs more 
+Not bad but the agent definitely needs more
 * training data and 
 * degree of freedom  (larger network)
   
